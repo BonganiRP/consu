@@ -4869,3 +4869,19 @@ Completed 200 OK in 103ms (Views: 101.3ms | ActiveRecord: 0.0ms)
   ↳ /usr/local/bin/rake:23
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /usr/local/bin/rake:23
+Started GET "/" for ::1 at 2020-07-06 21:55:57 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/lib/ruby/vendor_ruby/sprockets/rails/quiet_assets.rb:13
+Processing by NavigsController#home as HTML
+  Rendering navigs/home.html.erb within layouts/application
+  Rendered navigs/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2237ms (Views: 2217.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/call" for ::1 at 2020-07-06 21:56:07 +0200
+Processing by ContactController#call as HTML
+  Rendering contact/call.html.erb within layouts/application
+  Rendered contact/call.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 210ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
