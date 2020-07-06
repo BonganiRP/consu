@@ -1,0 +1,150 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+ @import "bootstrap";
+
+
+ body {
+    font-family: 'Teko', sans-serif;
+ }
+
+ .random_things {
+     margin-top: 5em;
+ }
+
+ .service {
+    background-color: grey;
+    height: 20em;
+    width: 10em;
+}
+
+.form-control {
+    width: 20em;
+}
+
+.login {
+    background-color: 	#F0F0F0;
+}
+
+.login_form {
+    margin-top: 6em;
+}
+
+.enter {
+    background-color: #DCDCDC;
+    border-radius: 2%;
+    width: 28em;
+    height: 23em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-item {
+    color: white;
+}
+
+
+.line {
+    position: relative;
+    top: 4em;
+    width: 73em;
+}
+
+.our_footer {
+    font-size: 10px;
+    color: green;
+    font-weight: bolder;
+    
+}
+
+.our_footer:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/*Contact sectiom*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+    font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 750px;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .reach_out {
+      overflow-x: hidden;
+  }
+
+  .image {
+    width: 100%;
+    height: 60vh;
+    background-color: blue;
+    background-size: cover;
+    overflow: hidden; 
+  }
+
+  .title {
+    margin-bottom: 3em;
+  }
+
+  .title2{
+    margin-bottom: 4em;
+  }

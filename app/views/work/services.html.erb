@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <section class="container1">
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <%= link_to "SA CONSULT", root_path, class:"navbar-brand" %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "Home", root_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+      <%= link_to "About", story_about_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+      <%= link_to "Dunamis Tech", "https://dunamistech.co.za/", class:"nav-link" %>
+    </li>
+    <li class="nav-item">
+    <%= link_to "Coding Academy", school_academy_path, class:"nav-link" %>
+    </li>
+    <li class="nav-item">
+      <%= link_to "Contact", contact_call_path, class:"nav-link" %>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <%= link_to "Register", school_academy_path, class:"btn btn-outline-success my-2 my-sm-0 mr-3" %>
+      <%= link_to "Sign in", enter_login_path, class:"btn btn-outline-success my-2 my-sm-0" %>
+    </form>
+  </div>
+</nav>
+
+<section class="services container mt-5 text-center">
+    <h2>Dunamis Tech assists businesses to build websites and web development</h2>
+    <div class="d-flex justify-content-center">
+        <div class="service border border-primary ">
+            
+        </div>
+        <div class="service border border-danger ml-3">
+            
+        </div>
+        <div class="service border border-warning ml-3">
+            
+        </div>
+        <div class="service border border-warning ml-3">
+            
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

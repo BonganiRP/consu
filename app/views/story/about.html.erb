@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <section class="container1">
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <%= link_to "SA CONSULT", root_path, class:"navbar-brand" %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to "Home", root_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+      <%= link_to "About", story_about_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+      <%= link_to "Dunamis Tech", "https://dunamistech.co.za/", class:"nav-link" %>
+    </li>
+      <li class="nav-item">
+      <%= link_to "Coding Academy", school_academy_path, class:"nav-link" %>
+      </li>
+      <li class="nav-item">
+      <%= link_to "Contact", contact_call_path, class:"nav-link" %>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <%= link_to "Register", school_academy_path, class:"btn btn-outline-success my-2 my-sm-0 mr-3" %>
+      <%= link_to "Sign in", enter_login_path, class:"btn btn-outline-success my-2 my-sm-0" %>
+    </form>
+  </div>
+</nav>
+
+<section>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+  <div class="image"></div>
+    <div class="carousel-caption d-none d-md-block banner">
+      <h2 class="title">Hire a consultant</h2>
+      <h5>A group of passionate consultants ready to work</h5>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+  <div class="image"></div>
+    <div class="carousel-caption d-none d-md-block banner">
+    <h2 class="title">From beginner to Expert</h2>
+      <h5>Show your talent to the world</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+  <div class="image"></div>
+    <div class="carousel-caption d-none d-md-block banner">
+    <h2 class="title">Send us your CV</h2>
+      <h5>Let us assist you find a your purpose</h5>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</section>
+  </section>
+
+</body>
+</html>
